@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<!--Head-->
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!--Title of Home Page-->
+    <title>Lush Beauty | Beauty and Makeup Products</title>
+
+    <meta name="description"
+        content="Discover the latest in beauty at Lush Beauty. Explore our unrivaled selection of makeup, skin care, fragrance and more from classic and emerging brands.">
+    <meta name="author" content="Sciana and Karampreet">
+
+    <!-- for responsive website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- website icon -->
+    <link rel="icon" href="Cosmetics/images.png" type="image/png">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="global.css">
+
+    <!--Font-->
+
+    <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+</head>
+
+<body id="contact_body">
+
+    <!--Header-->
+    <header class="home_header">
+        <a href="Cosmetics/preview.jpg">
+            <img src="Cosmetics/preview.jpg" class="header_icon" alt="Lush Beauty Icon" title="Lush Beauty"></a> Lush
+        Beauty
+
+        <!--Nav-->
+        <nav class="home_nav">
+            <a href="index.html">HOME</a>
+            <a href="catalogue.html">SHOP</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="table.html">COMPARE</a>
+            <a href="contact.html">CONTACT US</a>
+        </nav>
+
+    </header>
+    <main>
+        <!--Slogan-->
+        <div id="contact_slogan">
+            <h1>GET IN TOUCH WITH US</h1>
+
+        </div>
+
+        <form action="form-reply.html" method="post" style="max-width:400px; margin: auto">
+            <fieldset>
+                <legend><span>*REQUIRED FIELDS</span></legend>
+
+                <div class="form">
+                    <b>SUBJECT<span>*</span></b><br />
+                    <select name="subject" class="form_input_width" required>
+                        <option value="">Please select the reason for your contact</option>
+                        <option value="1">Order Issue</option>
+                        <option value="2">Product Question</option>
+                        <option value="3">Other</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <b>TITLE</b><br />
+                    <input type="radio" name="title" value="mr" id="mr" checked>
+                    <label for="mr">MISS</label>
+                    <input type="radio" name="title" value="miss" id="miss">
+                    <label for="miss">MR.</label>
+                    <input type="radio" name="title" value="mrs" id="mrs">
+                    <label for="mrs">MRS.</label>
+                </div>
+
+                <div class="form">
+                    <b>NAME<span>*</span></b><br />
+                    <input type="text" class="form_input_width" name="fullname" placeholder="FIRSTNAME AND LASTNAME"
+                        required maxlength="50" />
+                </div>
+
+                <div class="form">
+                    <b>EMAIL<span>*</span></b><br />
+                    <input type="email" class="form_input_width" name="email" placeholder="EMAIL" required
+                        maxlength="128" />
+                </div>
+
+                <div class="form">
+                    <b>PHONE NUMBER</b><br />
+                    <input type="text" class="form_input_width" name="phone" placeholder="PHONE NUMBER"
+                        maxlength="12" />
+                </div>
+
+                <div class="form_block">
+                    <b>ENTER YOUR MESSAGE<span>*</span></b><br />
+                    <textarea name="message" class="form_input_width" rows="5" placeholder="ENTER YOUR MESSAGE HERE"
+                        required maxlength="255"></textarea>
+                </div>
+                <br>
+                <div class="form_block">
+                    <input type="checkbox" name="agree" required value="1" /> <b>I AGREE TO COMPLY WITH COMPANY
+                        RULES<span>*</span></b><br />
+                    <br>
+                    <input type="checkbox" name="newsletter" value="1" /> <b>I AGREE TO RECEIVE INFO ABOUT LUSH
+                        BEAUTY</b>
+                </div>
+                <br>
+                <div class="form_block product_center">
+                    <input type="submit" value="SUBMIT" name="submit" />
+                </div>
+            </fieldset>
+        </form>
+    
+    </main>
+
+
+    <br>
+    <br>
+    <hr>
+    <!--Footer-->
+    <footer class="home_footer">
+        <div class="footer_group">
+            <ul>
+                <li>
+                    <h3><u>Contact Us:</u></h3>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="tel:(+1)438-000-0000"><i class="fas fa-mobile-alt"></i>+1 438-000-0000</a></li>
+                <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.046369662098!2d-73.58821178447876!3d45.48901097910119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6d613f17a3%3A0xaf49e8e67ebbd419!2sAlexis+Nihon!5e0!3m2!1sen!2sca!4v1565920206608!5m2!1sen!2sca"
+                        target="_blank"><i class="fas fa-map-marker-alt"></i>1500 Atwater Ave, Montreal, QC H3Z 1X5</a>
+                </li>
+
+            </ul>
+            
+        </div>
+        <div id="contact_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.046369662098!2d-73.58821178447876!3d45.48901097910119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6d613f17a3%3A0xaf49e8e67ebbd419!2sAlexis+Nihon!5e0!3m2!1sen!2sca!4v1566092691431!5m2!1sen!2sca"
+                    width="300" height="200" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="contact_social_media">
+            <h3 id="like"><u>Like and subscribe at:</u></h3>
+            <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <p id="copy_right">&copy;Lush Beauty 2019</p>
+    </footer>

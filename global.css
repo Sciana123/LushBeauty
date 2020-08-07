@@ -1,0 +1,568 @@
+/* Body for all pages */
+
+* {
+    font-family: 'Lilita One', cursive;
+    
+}
+
+body {
+    
+    overflow-x: hidden;
+}
+
+html {
+    background-color: lightpink;
+}
+
+/*Header for all pages */
+
+.home_header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background-color: whitesmoke;
+    font-family: 'Nosifer', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+/*Header Icon*/
+
+.header_icon {
+    position: relative;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 5px;
+    left: 5px;
+}
+
+/* Nav bar for all pages*/
+
+.home_nav {
+    text-align: center;
+    background-color: lightpink;
+    font-size: 20px;
+    padding: 1vw;
+}
+
+.home_nav a {
+    padding: 0.5vw 1vw;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Hovering for nav bar*/
+
+.home_nav a:hover {
+    background-color: rgb(252, 127, 146);
+}
+
+/*Home-Main Slogan in index page*/
+
+#home_slogan {
+    text-align: center;
+    margin-top: 145px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#home_slogan h1 {
+    margin-top: 0px;
+    font-size: 2vw;
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+
+#home_slogan h2 {
+    margin-top: 0px;
+    font-size: 1.7vw;
+    background-color: whitesmoke;
+}
+
+#home_slogan p {
+    width: 90%;
+    margin: auto;
+    font-size: 1.2vw;
+    background-color: whitesmoke;
+}
+
+/*To maintain width in index page*/
+
+.home_background1 {
+    width: 100%;
+    height: 600px;
+}
+
+.home_background_image_text h1, h2 {
+    font-size: 1.2vw;
+    background-color: lightpink;
+    color: black;
+    top: 0;
+    left: 5px;
+    width: 100%;
+}
+
+#lips1 a img {
+    float: left;
+    width: 900px;
+    height: 550px;
+}
+
+#lips2 a img {
+    display: inline-block;
+    width: 600px;
+    height: 550px;
+}
+
+/*To maintain width of the image*/
+
+.home_background2 {
+    width: 100%;
+    height: 600px;
+}
+
+/*Size of text on the image*/
+
+.home_background2 h2 {
+    font-size: 1.5vw;
+}
+
+/*To position text on the image in index page*/
+
+.home_image4 {
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.home_background_image_text2 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 3vw;
+    color: whitesmoke;
+    width: 40%;
+}
+
+/* footer for all the pages */
+
+.home_footer {
+    padding: 5px;
+    color: black;
+    clear: left;
+}
+
+/* list in footer */
+
+.footer_group li {
+    list-style-type: none;
+    margin: 5px auto;
+}
+
+/* anchor tag in footer */
+
+.footer_group a {
+    color: black;
+    text-decoration: none;
+}
+
+/* on hovering over anchor tags in footer */
+
+.footer_group a:hover {
+    color: blue;
+}
+
+/* icons of contact for footer */
+
+.footer_group i {
+    margin: 5px auto;
+    width: 24px;
+}
+
+/* social media icons in footer */
+
+footer .home_social_media {
+    position: relative;
+    bottom: 110px;
+    left: 700px;
+}
+
+/* social media icons in footer  */
+
+footer .home_social_media a {
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer .home_social_media h3 #like {
+    position: relative;
+    bottom: 130px;
+    left: 700px;
+}
+
+/* social media icons in footer hover effect */
+
+.home_social_media a:hover {
+    color: blue;
+}
+
+/* copy right text at the bottom of footer */
+
+#copy_right {
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+/*Catalogue Page-Body*/
+
+#catalog_body {
+    background-image: url(images/bck4.jpg);
+    background-attachment: fixed;
+}
+
+#catalog_slogan {
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#catalog_slogan h1 {
+    margin-top: 0px;
+    font-size: 2vw;
+    text-decoration: underline;
+    background-color: whitesmoke;
+    
+}
+
+#catalog .product h2 {
+    text-decoration: none;
+    background-color: white;
+}
+
+#catalog .product {
+    position: relative;
+    top: 10px;
+    margin: auto;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #232F3E;
+    margin: 15px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* hovering over thumbnail images in catalogue page */
+
+#catalog .product:hover {
+    background-color: grey;
+}
+
+/* images in catalogue page */
+
+#catalog .product img {
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+
+/* description of products in catalogue page */
+
+#catalog .product ul {
+    list-style-type: inside;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*GALLERY PAGE*/
+
+#gallery_body {
+    background-image: url(images/home1.jpg);
+    background-attachment: fixed;
+}
+
+#gallery_slogan {
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#gallery_slogan h1 {
+    margin-top: 0px;
+    font-size: 2vw;
+    text-decoration: underline;
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+
+/* main div in gallery page */
+
+#gallery_body #gallery_images {
+    position: relative;
+    top: 10px;
+    margin: auto;
+    display: inline-block;
+    background-color: black;
+    border: 2px solid #232F3E;
+    margin: 15px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/* header text in gallery page */
+
+#gallery_body #gallery_images h1 {
+    color: lightpink;
+    text-decoration: underline;
+}
+
+/* all images in gallery page */
+
+#gallery_body #gallery_images img {
+    float: left;
+    padding: 2px;
+    margin: 10px;
+    width: 450px;
+    height: 350px;
+}
+
+/* image hovering in gallery page */
+
+#gallery_body #gallery_images img:hover {
+    background-color: grey;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Compare Page*/
+
+#table_body {
+    background-image: url(images/bck6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#table_slogan {
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#table_slogan h1 {
+    margin-top: 0px;
+    font-size: 2vw;
+    text-decoration: underline;
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+
+#table_body #compare {
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+#table_body #bestsellers {
+    width: 70%;
+    margin: auto;
+}
+
+#table_body #bestsellers th, td {
+    padding: 20px;
+    text-align: left;
+    margin: 10px;
+    width: 25%;
+}
+
+#table_body #bestsellers tr:nth-child(odd) {
+    background-color: rgb(241, 158, 158);
+}
+
+#table_body #bestsellers tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Contact Page*/
+
+#contact_body {
+    background-image: url(images/bck4.jpg);
+    background-attachment: fixed;
+    
+}
+
+#contact_slogan {
+    text-align: center;
+    margin-top: 145px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#contact_slogan h1 {
+    margin-top: 0px;
+    font-size: 2vw;
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+
+.form {
+    line-height: 2.2;
+    padding: 10px;
+}
+
+/* mandatory fields in contact page */
+
+#contact_body span {
+    color: red;
+}
+
+/* styling the fields in contact page */
+
+.form_input_width, input[type=submit] {
+    border: 1px solid grey;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* submit button in contact page */
+
+input[type=submit] {
+    border-color: lightcoral;
+    width: 50%;
+    background-color: grey;
+    color: lightpink;
+}
+
+/* submit button hovering */
+
+input[type=submit]:hover {
+    border-color: lightcoral;
+    background-color: lightpink;
+    color: grey;
+}
+
+#contact_map {
+    display: inline-block;
+    margin-left:30px;
+    border: 2px solid #232F3E;
+    padding: 5px;
+    background-color: white;
+}
+
+.home_footer .contact_social_media{
+    position: relative;
+    bottom:330px;
+    left:700px;
+    
+}
+
+footer .contact_social_media a {
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer .contact_social_media h3 #like {
+    position: relative;
+    bottom: 130px;
+    left: 700px;
+}
+
+/* social media icons in footer hover effect */
+
+.contact_social_media a:hover {
+    color: blue;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*FORM REPLY PAGE*/
+
+#reply_body {
+    background-image: url(images/bck4.jpg);
+    background-attachment: fixed;
+}
+#reply_slogan {
+    text-align: center;
+    margin-top: 145px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#reply_slogan h2 {
+    margin-top: 0px;
+    font-size: 2vw;
+    background-color: whitesmoke;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Product Page*/
+
+#product_body{
+    background-image: url(images/original.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/* image in product page */
+#product{
+    padding-top: 10px;
+    margin: 145px 0px 5px 0px;
+}
+
+/* image sizing in product page */
+#product img {
+    width: 30%;
+    margin-left: 100px;
+    margin-top:20px;
+    float: left;
+    height:500px;
+    background-color: black;
+    
+}
+
+#product_body #description{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    text-align: justify;
+    margin: 25px;
+    padding: 20px;
+    text-decoration: none;
+    width:700px;
+    font-size:1.2vw;
+}
+
+#product_body #description h2{
+    text-decoration: underline;
+}
+
+ 
+
+
+
+
